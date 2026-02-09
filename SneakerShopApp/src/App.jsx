@@ -8,8 +8,8 @@ export function App() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route element={<HomePage />} index />
-        <Route element={<CartPage />} path="/cart" />
-        <Route element={<FavouritePage />} path="/favourite" />
+        <Route path="/cart" element={<CartPage />} />
+        <Route path="/favourite" element={<FavouritePage />} />
         <Route path="/order" element={<OrderPages />} />
       </Route>
     </Routes>
