@@ -1,0 +1,19 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnCont {
+  display: flex;
+  gap: 20px;
+}
+.logoCont {
+  display: flex;
+  gap: 10px;
+}
+.logoTextCont {
+}
+.img {
+  height: 30px;
+  width: 30px;
+}
