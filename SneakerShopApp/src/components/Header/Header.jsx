@@ -4,7 +4,6 @@ import { FaRegHeart, FaRegUser } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 
 export const Header = () => {
-  const iconsColor = { color: "gray" };
   return (
     <header className={style.Header}>
       <div className={style.logoCont}>
@@ -17,17 +16,17 @@ export const Header = () => {
       <div className={style.btnCont}>
         <div className="shop">
           <NavLink to="/">
-            <IoCartOutline style={iconsColor} />
+            <IoCartOutline className={style.iconsColor} />
           </NavLink>
         </div>
         <div className="favourite">
           <NavLink to="favourite">
-            <FaRegHeart style={iconsColor} />
+            <FaRegHeart className={style.iconsColor} />
           </NavLink>
         </div>
         <div className="profile">
           <NavLink to="profile">
-            <FaRegUser style={iconsColor} />
+            <FaRegUser className={style.iconsColor} />
           </NavLink>
         </div>
       </div>
